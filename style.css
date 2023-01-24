@@ -1,0 +1,120 @@
+*{margin: 0;
+margin: 0;}
+body{
+    background-color: bisque;
+}
+.search{
+    text-align: center;
+
+}
+#title{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 200px;
+    background-color: antiquewhite;
+    background-image: url("./images/backk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+    margin-top: 50px;
+    margin-bottom: 40px;
+ 
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+.menu{
+    display: inline;
+justify-content: center;
+
+}
+
+
+ul {
+    
+    display: inline;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: bisque;
+    display: flex; /* add this to make the list items display next to each other */
+}
+
+li {
+    /* add this to remove default margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: black;
+    padding: 9px 17px;
+    text-decoration: none;
+    display: inline-block; /* add this to make the links display inline but still have block-level properties */
+}
+
+/* When the link is hovered on, its color will change */
+li a:hover {
+    background-color: white;
+    color: black;
+}
+#list{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+    padding: 4px;
+    transform: translate(0, 165px);
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 12px solid wheat;
+    text-align: center;
+    height: 90%;
+    width: 90%;
+  }
+  img{
+      height: 100%;
+      width: 100%;
+      /* max-width: 210px; */
+      height: 202px;
+  }
+  .star{
+    color: antquewhite ;
+    font-family: 'Eczar', serif;
+    background-color:antiquewhite
+  }
+  .par{
+color: antiquewhite;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: antiquewhite;
+color: black;  
+}
+  body{
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+  }
+  p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .back{
+    background-color:antiquewhite ;
+    color: black;
+  }

@@ -1,0 +1,77 @@
+body{
+    background-color: bisque;
+}
+.search{
+    text-align: center;
+
+}
+#title{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 200px;
+    background-color: antiquewhite;
+    background-image: url("./images/backk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+}
+.menu{
+    display: inline;
+justify-content: center;
+}
+ul {
+    display: inline;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: bisque;
+    display: flex; /* add this to make the list items display next to each other */
+}
+
+li {
+    /* add this to remove default margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: black;
+    padding: 9px 17px;
+    text-decoration: none;
+    display: inline-block; /* add this to make the links display inline but still have block-level properties */
+}
+
+/* When the link is hovered on, its color will change */
+li a:hover {
+    background-color: white;
+    color: black;
+}
+#list{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+} 
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:antiquewhite;
+    padding: 4px;
+    transform: translate(0, 165px);
+    justify-content: center;
+  }
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 12px solid wheat;
+    text-align: center;
+    grid-gap: 50px;
+    height: 100%;
+    width: 90%;
+  }
+  img{
+      height: 100%;
+      width: 100%;
+      /* max-width: 210px; */
+      height: 202px;
+  }
